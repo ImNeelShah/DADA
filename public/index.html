@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>Memories with Grandfather</title>
@@ -8,6 +9,7 @@
     * {
       box-sizing: border-box;
     }
+
     body {
       margin: 0;
       background: #121212;
@@ -40,7 +42,8 @@
     /* Video */
     .video-wrapper {
       position: relative;
-      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+      padding-bottom: 56.25%;
+      /* 16:9 Aspect Ratio */
       height: 0;
       overflow: hidden;
       border-radius: 12px;
@@ -113,13 +116,16 @@
     }
   </style>
 </head>
+
 <body>
   <div class="container">
     <h1>Tamari Yaado ACP na Left Jode</h1>
 
     <div class="video-wrapper">
-      <iframe src="https://youtu.be/Zqcgl530N7M" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Zqcgl530N7M" frameborder="0" allowfullscreen>
+      </iframe>
     </div>
+
 
     <div class="upload-section">
       <input type="file" id="uploadInput" multiple accept="image/*" style="display:none;" />
@@ -170,4 +176,5 @@
     });
   </script>
 </body>
+
 </html>
